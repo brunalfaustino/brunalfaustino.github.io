@@ -204,11 +204,10 @@ header.masthead {
     padding: 150px 15px 100px;
     text-align: center; }
     header.masthead .header-content .header-content-inner h1 {
-      font-size: 30px;
-      font-weight: 700;
+      font-size: 28px;
+      font-weight: 500;
       margin-top: 0;
-      margin-bottom: 0;
-      text-transform: uppercase; }
+      margin-bottom: 0; }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner p {
@@ -232,7 +231,7 @@ header.masthead {
           margin-right: auto;
           margin-left: auto; }
           header.masthead .header-content .header-content-inner h1 {
-            font-size: 30px; }
+            font-size: 28px; }
           header.masthead .header-content .header-content-inner p {
             font-size: 18px;
             max-width: 80%;
@@ -401,7 +400,7 @@ header.masthead {
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  width: 167px; }
+  width: 330px; }
 
 .navbar-shrink .navbar-brand {
   background-image: url(/img/logo-mini-light.png); }
