@@ -47,7 +47,15 @@
     url('/fonts/HelveticaNeue/HelveticaNeue-CondensedBlack.ttf') format('truetype');
 }
 
-
+@font-face
+{
+  font-family: 'HelveticaNeueCondensed';
+  src: url('/fonts/HelveticaNeue/helveticaneue-condensed-webfont.eot');
+  src: local('HelveticaNeue-CondensedBold'),
+    local('HelveticaNeue-CondensedBold'),
+    url('/fonts/HelveticaNeue/helveticaneue-condensed-webfont.woff') format('woff'),
+    url('/fonts/HelveticaNeue/helveticaneue-condensed-webfont.ttf') format('truetype');
+}
 
 // Global styling for this template
 body,
@@ -58,7 +66,7 @@ html {
 
 body {
   // @include serif-font;
-  font-family: "HelveticaNeueRegular";
+  font-family: "HelveticaNeueCondensed";
 }
 
 hr {
@@ -87,7 +95,7 @@ h4,
 h5,
 h6 {
   // @include sans-serif-font;
-  font-family: "HelveticaNeueCondensedBold";
+  font-family: "HelveticaNeueCondensed";
 }
 
 p {

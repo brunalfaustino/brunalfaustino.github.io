@@ -32,13 +32,18 @@
   src: url("/fonts/HelveticaNeue/HelveticaNeue-CondensedBlack.eot");
   src: local("HelveticaNeue-CondensedBlack"), local("HelveticaNeue-CondensedBlack"), url("/fonts/HelveticaNeue/HelveticaNeue-CondensedBlack.ttf") format("truetype"); }
 
+@font-face {
+  font-family: 'HelveticaNeueCondensed';
+  src: url("/fonts/HelveticaNeue/helveticaneue-condensed-webfont.eot");
+  src: local("HelveticaNeue-CondensedBold"), local("HelveticaNeue-CondensedBold"), url("/fonts/HelveticaNeue/helveticaneue-condensed-webfont.woff") format("woff"), url("/fonts/HelveticaNeue/helveticaneue-condensed-webfont.ttf") format("truetype"); }
+
 body,
 html {
   width: 100%;
   height: 100%; }
 
 body {
-  font-family: "HelveticaNeueRegular"; }
+  font-family: "HelveticaNeueCondensed"; }
 
 hr {
   max-width: 50px;
@@ -62,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "HelveticaNeueCondensedBold"; }
+  font-family: "HelveticaNeueCondensed"; }
 
 p {
   font-size: 16px;
@@ -188,7 +193,8 @@ header.masthead {
       font-size: 30px;
       font-weight: 700;
       margin-top: 0;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      text-transform: uppercase; }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner p {
@@ -380,7 +386,8 @@ header.masthead {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  width: 167px; }
 
 .navbar-shrink .navbar-brand {
   background-image: url(/img/logo-mini-light.png); }
@@ -406,7 +413,8 @@ header.masthead {
   background-color: rgba(255, 255, 255, 0.89); }
 
 .modal-dialog .modal-header {
-  padding: 15px 21px; }
+  padding: 15px 21px;
+  border: 0; }
 
 .modal-dialog .modal-body {
-  padding: 20px 40px; }
+  padding: 0 40px 20px 40px; }
