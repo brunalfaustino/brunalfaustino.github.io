@@ -1,0 +1,48 @@
+.white-popup {
+  background: #FFF;
+  padding: 20px;
+}
+
+.navbar-brand{
+  background-position: left 0px;
+  background-repeat: no-repeat;
+  padding-left: 57px;
+}
+
+.navbar-shrink{
+  .navbar-brand{
+    background-image: url(/img/logo-mini-light.png);
+    background-size: contain;
+    padding-left: 47px;
+  }
+}
+
+@media (min-width: 992px){
+  .navbar-brand{
+    background-image: url(/img/logo-mini-dark.png);
+  }
+}
+
+.logo{
+  width: 233px;
+}
+
+.mfp-wrap, .mfp-bg{
+  z-index: 1150;
+}
+
+.mfp-bg{
+  opacity: 0.95;
+}
+
+.modal-dialog{
+  .modal-content{
+    background-color: rgba(255, 255, 255, 0.89);
+  }
+  .modal-header{
+    padding: 15px 21px;
+  }
+  .modal-body{
+    padding: 20px 40px;
+  }
+}
