@@ -382,6 +382,8 @@ header.masthead {
   border: none;
   border-radius: 300px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  .btn:focus {
+    box-shadow: none !important; }
 
 .btn-xl {
   padding: 15px 30px; }

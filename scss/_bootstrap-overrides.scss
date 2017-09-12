@@ -22,6 +22,9 @@
   border: none;
   border-radius: 300px;
   @include sans-serif-font;
+  &:focus{
+    box-shadow: none !important;
+  }
 }
 
 .btn-xl {
