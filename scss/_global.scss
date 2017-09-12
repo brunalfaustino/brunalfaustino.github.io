@@ -57,6 +57,27 @@
     url('/fonts/HelveticaNeue/helveticaneue-condensed-webfont.ttf') format('truetype');
 }
 
+@font-face{
+  font-family: 'helvetica_neue_light';
+  src: url('/fonts/HelveticaNeue/helveticaneue-light-webfont.eot');
+  src: url('/fonts/HelveticaNeue/helveticaneue-light-webfont.eot') format('embedded-opentype'),
+  url('/fonts/HelveticaNeue/helveticaneue-light-webfont.woff') format('woff'),
+  url('/fonts/HelveticaNeue/helveticaneue-light-webfont.ttf') format('truetype'),
+  url('/fonts/HelveticaNeue/helveticaneue-light-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'helvetica_neue_ultralight';
+  src: url('/fonts/HelveticaNeue/helveticaneue-ultralight-webfont.eot');
+  src: url('/fonts/HelveticaNeue/helveticaneue-ultralight-webfont.eot') format('embedded-opentype'),
+  url('/fonts/HelveticaNeue/helveticaneue-ultralight-webfont.woff') format('woff'),
+  url('/fonts/HelveticaNeue/helveticaneue-ultralight-webfont.ttf') format('truetype'),
+  url('/fonts/HelveticaNeue/helveticaneue-ultralight-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 // Global styling for this template
 body,
 html {
@@ -66,7 +87,7 @@ html {
 
 body {
   // @include serif-font;
-  font-family: "HelveticaNeueCondensed";
+  font-family: "helvetica_neue_light";
 }
 
 hr {
@@ -95,7 +116,7 @@ h4,
 h5,
 h6 {
   // @include sans-serif-font;
-  font-family: "HelveticaNeueCondensed";
+  font-family: "helvetica_neue_light";
 }
 
 p {
