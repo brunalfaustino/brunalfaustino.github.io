@@ -7,13 +7,17 @@
   background-position: left 0px;
   background-repeat: no-repeat;
   padding-left: 57px;
+  background-image: url(/img/logo-mini-light.png);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .navbar-shrink{
   .navbar-brand{
     background-image: url(/img/logo-mini-light.png);
-    background-size: contain;
-    padding-left: 47px;
   }
 }
 
@@ -21,6 +25,14 @@
   .navbar-brand{
     background-image: url(/img/logo-mini-dark.png);
   }
+
+  .navbar-shrink{
+    .navbar-brand{
+      background-image: url(/img/logo-mini-light.png);
+      background-size: contain;
+    }
+  }
+
 }
 
 .logo{
