@@ -1,3 +1,54 @@
+@font-face {
+  font-family: "helvetica-neue";
+  src: url("/fonts/helvetica-neue/helvetica-neue-webfont.eot?") format("embedded-opentype");
+}
+
+@font-face {
+  font-family: "helvetica-neue";
+  src: local("☺"), url("/fonts/helvetica-neue/helvetica-neue-webfont.woff") format("woff"), url("/fonts/helvetica-neue/helvetica-neue-webfont.ttf") format("opentype"), url("/fonts/helvetica-neue/helvetica-neue-webfont.eot"), url("/fonts/helvetica-neue/helvetica-neue-webfont.svg#helvetica-neue-webfont'") format("svg");
+}
+
+@font-face
+{
+  font-family: 'HelveticaNeueRegular';
+  src: url('/fonts/HelveticaNeue/HelveticaNeue.eot');
+  src: local('Helvetica Neue Bold'),
+    local('HelveticaNeue'),
+    url('/fonts/HelveticaNeue/HelveticaNeue.woff') format('woff'),
+    url('/fonts/HelveticaNeue/HelveticaNeue.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'HelveticaNeueBold';
+  src: url('/fonts/HelveticaNeue/HelveticaNeue-Bold.eot');
+  src: local('Helvetica Neue Bold'),
+    local('HelveticaNeue'),
+    url('/fonts/HelveticaNeue/HelveticaNeue-Bold.woff') format('woff'),
+    url('/fonts/HelveticaNeue/HelveticaNeue-Bold.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'HelveticaNeueCondensedBold';
+  src: url('/fonts/HelveticaNeue/HelveticaNeue-CondensedBold.eot');
+  src: local('HelveticaNeue-CondensedBold'),
+    local('HelveticaNeue-CondensedBold'),
+    url('/fonts/HelveticaNeue/HelveticaNeue-CondensedBold.woff') format('woff'),
+    url('/fonts/HelveticaNeue/HelveticaNeue-CondensedBold.ttf') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'HelveticaNeueCondensedBlack';
+  src: url('/fonts/HelveticaNeue/HelveticaNeue-CondensedBlack.eot');
+  src: local('HelveticaNeue-CondensedBlack'),
+    local('HelveticaNeue-CondensedBlack'),
+    url('/fonts/HelveticaNeue/HelveticaNeue-CondensedBlack.ttf') format('truetype');
+}
+
+
+
 // Global styling for this template
 body,
 html {
@@ -6,7 +57,8 @@ html {
 }
 
 body {
-  @include serif-font;
+  // @include serif-font;
+  font-family: "HelveticaNeueRegular";
 }
 
 hr {
@@ -34,7 +86,8 @@ h3,
 h4,
 h5,
 h6 {
-  @include sans-serif-font;
+  // @include sans-serif-font;
+  font-family: "HelveticaNeueCondensedBold";
 }
 
 p {
