@@ -276,8 +276,11 @@ header.masthead {
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         padding: 0 15px;
-        background: rgba(237, 31, 36, 0.9);
         font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+        .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category span,
+        .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name span {
+          background: rgba(237, 31, 36, 0.9);
+          padding: 5px; }
       .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 14px;
         font-weight: 600;
@@ -291,8 +294,6 @@ header.masthead {
   .portfolio-box:focus {
     outline: none; }
   @media (min-width: 768px) {
-    .portfolio-box .portfolio-box .img-fluid {
-      opacity: 0.5; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
       font-size: 16px; }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
@@ -441,3 +442,6 @@ header.masthead {
 
 .modal-dialog .modal-body {
   padding: 0 40px 20px 40px; }
+
+.pb-0 {
+  padding-bottom: 0; }

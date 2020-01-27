@@ -26,9 +26,12 @@
       .project-category,
       .project-name {
         padding: 0 15px;
-        background: fade-out($theme-primary, .1);
+        
         @include sans-serif-font;
-
+        span{
+          background: fade-out($theme-primary, .1);
+          padding: 5px;
+        }
       }
       .project-category {
         font-size: 14px;
